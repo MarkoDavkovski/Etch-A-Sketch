@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>EtchASketch</title>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="main.js" defer></script>
+	</head>
+	<body>
+		<section>
+			<h1>Etch a Sketch</h1>
+			<h3 class="mode">Mode : Coloring</h3>
+			<div class="board"></div>
+			<div class="buttons">
+				<button class="btn blackBtn" onclick="changeColor('black')">
+					Black
+				</button>
+				<button class="btn greyBtn" onclick="changeColor('grey')">Grey</button>
+				<button class="btn randomBtn" onclick="changeColor('random')">
+					Random
+				</button>
+				<button class="btn" onclick="changeColor('white')">Erase</button>
+				<button class="btn" onclick="resetBoard()">Reset</button>
+			</div>
+			<button class="btn" onclick="sizePrompt()">Create new board</button>
+		</section>
+	</body>
+</html>

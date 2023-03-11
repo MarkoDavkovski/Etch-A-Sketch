@@ -15,6 +15,18 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+.home-icon {
+	font-size: 1.2rem;
+	position: fixed;
+	top: 10%;
+	color: gray;
+	cursor: pointer;
+}
+.home-icon:hover .fa-sharp {
+	transition: all 0.6s;
+	transform: rotate(360deg) scale(1.2);
+	color: black;
+}
 .board {
 	height: 600px;
 	width: 600px;
